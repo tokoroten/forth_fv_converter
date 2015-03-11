@@ -1,0 +1,20 @@
+a
+b
+c
+d
+e.hoge
+# a + b
+a b add
+# a - b
+a b sub
+# a / b
+a b div
+# math.log1p(a + c)
+a c add log1p
+# math.log1p(a / d)
+a b div log1p
+# min([200, max(100, a)]
+a 100 200 chop
+# support label variable
+piyo_label "top" eq
+piyo_label "sale" eq
